@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+venvchurn/
+
+# Data (Never upload data to GitHub)
+data/raw/*.csv
+data/processed/*.csv
+# If you want to keep the folder structure but no data:
+# !data/.gitkeep
+
+# Models (Large binary files)
+models/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE Specific
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Explanations (Keep the images for README, ignore the CSVs)
+explanations/*.csv
+# !explanations/*.png
+
+src/*.py
