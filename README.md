@@ -17,7 +17,9 @@ This project predicts customer churn using Machine Learning and uses SHAP values
 The model was evaluated on a held-out test set (20% of the total data) to ensure generalization. While the primary focus of this project is Interpretability (XAI), the predictive engine maintains a solid performance baseline.
 
 **Metrics:**
+
 Class 0 (Loyal) -> Precision: 0.83, Recall: 0.90, F1-Score: 0.86
+
 Class 1 (Churn)	Overall -> Precision: 0.63, Recall: 0.48, F1-Score: 0.54
 
 **Overall**
