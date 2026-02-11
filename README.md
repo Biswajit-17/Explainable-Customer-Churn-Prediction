@@ -1,19 +1,19 @@
 # Customer Churn Prediction + Explainable ML
 
-➡️## Project Overview
+## Project Overview
 This project predicts customer churn using Machine Learning and uses SHAP values to explain the "Why" behind every prediction.
 
-➡️## Workflow
+## Workflow
 1. **Preprocessing**: Cleans data and handles categorical encoding.
 2. **Training**: Trains a Random Forest Classifier.
 3. **Interpretability**: Uses SHAP to generate global and individual explanations.
 
-➡️## Key Insights (from SHAP)
+## Key Insights (from SHAP)
 - **Tenure**: New customers are the highest churn risk.
 - **Contract Type**: Two-year contracts significantly reduce churn probability.
 - **Fiber Optic**: Customers with Fiber Optic service are churning at higher rates, indicating a potential service issue.
 
-➡️## Model Performance & Results 
+## Model Performance & Results 
 The model was evaluated on a held-out test set (20% of the total data) to ensure generalization. While the primary focus of this project is Interpretability (XAI), the predictive engine maintains a solid performance baseline.
 
 **Metrics:**  
@@ -25,7 +25,7 @@ Class 1 (Churn)	Overall -> Precision: 0.63, Recall: 0.48, F1-Score: 0.54
 **0.70 Macro Average**  
 **0.78 Weighted Average**  
 
-➡️## Key Takeaways  
+## Key Takeaways  
 **High Loyalty Prediction (90% Recall for Class 0):**
 The model is exceptionally good at identifying customers who are likely to stay. This reduces "false alarms," ensuring that the business doesn't accidentally offer unnecessary discounts to loyal customers.  
 
