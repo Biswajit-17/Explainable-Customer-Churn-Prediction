@@ -23,6 +23,7 @@ Class 0 (Loyal) -> Precision: 0.83, Recall: 0.90, F1-Score: 0.86
 Class 1 (Churn)	Overall -> Precision: 0.63, Recall: 0.48, F1-Score: 0.54
 
 **Overall**
+
 **79% Accuracy**
 **0.70 Macro Average**
 **0.78 Weighted Average**
